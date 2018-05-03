@@ -194,10 +194,6 @@ input[type=submit] {
 
 /* Responsive layout - when the screen is in between 481px and 767px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (min-width: 481px) and (max-width: 767px) {
-    .
- .row {   
-        flex-direction: row;
-    }
    .col-25, .col-75, input[type=submit] {
     width: 100%;
     margin-top: 0;
@@ -246,9 +242,4 @@ input[type=submit] {
 .head1{
     font-size: 1rem;
 }
-
-.col-25, .col-75, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
 }
